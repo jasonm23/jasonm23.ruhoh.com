@@ -3,10 +3,9 @@ title: Hello World
 date: '2012-06-03'
 description: just a test post
 categories: blurb
-tags: [null]
+tags: [blurb]
 
 layout: post
-type: draft
 ---
 
 # Hello world
