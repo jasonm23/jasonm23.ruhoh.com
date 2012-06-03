@@ -11,3 +11,9 @@ layout : page
   <br>Check out the goods:
 </p>
 <pre><code>$ ruhoh help</code></pre>
+
+  {{# posts }}
+    <h1><a href="{{url}}">::{{title}}</a></h1>
+    {{date}}
+    {{{ content }}}
+  {{/ posts }}
