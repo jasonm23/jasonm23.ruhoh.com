@@ -6,19 +6,9 @@ layout: post
 
 ---
 
-This is a test of ruhoh. Ruhoh, appears to be a rather awesome developers blogging platform.
+Let's do a style test...
 
-You write your posts and pages in markdown, or some other supported style, and then use git and github (web-hook) to update the blog online.
-
-It's pre-configured to use Bootstap the lovely web client framework from Twitter...
-
-...Anyway, this is a test, so before I get carried away.
-
-# Goodbye for now...
-
-Well not quite, let's do a style test...
-
-Python indenting with 4 spaces 
+Python indenting with 4 spaces is good...
 
     def some_callable(argument1, argument2=False):
         """ Doc-string for some_callable function. """
@@ -31,7 +21,7 @@ Python indenting with 4 spaces
                 raise
         return argument1 
 
-2 space indents are more readable?
+Indenting 2 spaces is less readable.
 
     def some_callable(argument1, argument2=False):
       """ Doc-string for some_callable function. """
@@ -43,4 +33,32 @@ Python indenting with 4 spaces
         if not can_fail:
           raise
       return argument1 
+
+However, in Ruby it's more readable to use 2...
+
+    def self.create_with_omniauth(auth)
+      create! do |account|
+        account.provider = auth["provider"]
+        account.uid      = auth["uid"]
+        account.name     = auth["info"]["first_name"]
+        account.surname  = auth["info"]["last_name"]
+        account.email    = auth["info"]["email"
+        account.role     = "users"
+      end
+    end
+
+Interestingly, Haml, CoffeeScript and Sass all suggest a 2 space indent, even though they share similarities with Python due to their whitespace sensitive syntaxes.
+
+    .navbar
+      .navbar-inner
+        .container
+          %a.brand(href="/") #{title}
+          %ul.nav
+            - pages.each do |p|
+              %li= partial :page, :locals => {:p => p}
+            
+
+For Haml, it's fine, and at 4 spaces it looks ugly, be that subjective or not. For CoffeeScript where lines get more complicated it's more useful to have 4 space indents for the same reason as Python. 
+
+This could happen in Haml too, although if you're using Haml properly it definitely shouldn't.
 

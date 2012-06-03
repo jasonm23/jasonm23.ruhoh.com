@@ -2,6 +2,9 @@
 html, body {
   background-color: #eee;
 }
+a.brand {
+  font-family           : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .navbar {
   margin-bottom: 0;
 }

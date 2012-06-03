@@ -31,4 +31,3 @@ syntax :
   provider : google_prettify
   google_prettify : 
       theme: twitter-bootstrap
-      linenums : true
