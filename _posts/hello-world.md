@@ -2,8 +2,8 @@
 title: Hello World
 date: '2012-06-03'
 description: just a test post
-
 layout: post
+
 ---
 
 This is a test of ruhoh. Ruhoh, appears to be a rather awesome developers blogging platform.
