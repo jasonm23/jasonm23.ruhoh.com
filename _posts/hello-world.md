@@ -6,8 +6,6 @@ description: just a test post
 layout: post
 ---
 
-# Hello world
-
 This is a test of ruhoh. Ruhoh, appears to be a rather awesome developers blogging platform.
 
 You write your posts and pages in markdown, or some other supported style, and then use git and github (web-hook) to update the blog online.
