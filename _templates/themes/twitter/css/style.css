@@ -4,6 +4,9 @@ html, body {
 }
 .navbar {
   margin-bottom: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
 }
 .navbar .container{ 
   width:940px;
