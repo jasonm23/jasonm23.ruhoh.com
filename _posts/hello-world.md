@@ -2,8 +2,6 @@
 title: Hello World
 date: '2012-06-03'
 description: just a test post
-categories: blurb
-tags: [blurb]
 
 layout: post
 ---
