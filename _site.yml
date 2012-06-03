@@ -1,11 +1,10 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Code Fodder
+tagline: 
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Jason Milkins
+  email : jasonm23@gmail.com
+  github : jasonm23
+  twitter : ocodo
 
 navigation :
   - archive.html
