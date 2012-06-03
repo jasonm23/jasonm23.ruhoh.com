@@ -1,12 +1,14 @@
 ---
-title: Hello World
+title: ...and we're back
 date: '2012-06-03'
 description: just a test post
 layout: post
 
 ---
 
-Let's do a style test...
+Ok this isn't a real post, and it's not an introduction, if you pass by here, I'm sure it's not because of my welcome post or an about me, it's because googling for some help has landed you here, in which case I hope coming here helped.
+
+While we're at it let's do a style test...
 
 Python indenting with 4 spaces is good...
 
@@ -58,7 +60,57 @@ Interestingly, Haml, CoffeeScript and Sass all suggest a 2 space indent, even th
               %li= partial :page, :locals => {:p => p}
             
 
-For Haml, it's fine, and at 4 spaces it looks ugly, be that subjective or not. For CoffeeScript where lines get more complicated it's more useful to have 4 space indents for the same reason as Python. 
+Anyway, enough of that, let's have a look at markdown support ... 
 
-This could happen in Haml too, although if you're using Haml properly it definitely shouldn't.
+# Heading h1
 
+## Heading h2
+
+### Heading h3
+
+#### Heading h4
+
+##### Heading h5
+
+###### Heading h6
+
+Ordered lists....
+
+1. List
+  1. List
+  1. Nesting
+1. Ordered
+1. Items
+1. And 
+  continuation?
+  
+1. Resume...
+
+Unordered Lists
+
+* This unordered list
+  * isn't too bad,
+    continuation can be problematic with lists though
+    we'll see eh...
+    
+  * and resume...
+* Rule of thumb with markdown, don't try and be too clever with it.
+* and 
+* it'll serve you well.
+
+> Blockquoting support is simple too.
+> of course, we have `in line code` and
+> **bold** *emphasis/italics*.
+
+Horizontal rules are allowed with just a flick of the `---`
+
+--- 
+
+Mind you, with Bootstrap they can be hard to spot 
+
+> You can also use <sup>superscript</sup> in 
+> some markdown parsers, it depends on their **&lt;HTML TAG&gt;** support.
+
+...and that about wraps it up, Ruhoh, a really straight-forward and BS free blogging experience. 
+
+Thank you very much Jade, it's awesome.
