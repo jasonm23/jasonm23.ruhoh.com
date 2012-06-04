@@ -30,4 +30,5 @@ analytics :
 syntax :
   provider : google_prettify
   google_prettify : 
-      theme: twitter-bootstrap
+      theme: sunburst-custom
+      linenums : true
